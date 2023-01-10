@@ -117,7 +117,28 @@
 
     .central__images{
         justify-content: space-around;
-        width: 100%;
+        width: 90%;
     }
 
+    .central__image{
+        margin: 0 0.5rem;
+        height: auto;
+        width: 5.5rem;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    
+
+    .central__images{
+        justify-content: space-around;
+        width: 90%;
+    }
+
+    .central__image{
+        margin: 0 0.5rem;
+        height: auto;
+        width: 4rem;
+    }
 }

@@ -14,3 +14,17 @@
     color: var(--medium-gray);
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    .footer{
+        line-height: 1.5rem;
+        margin: 2rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .footer{
+        line-height: 1.5rem;
+        margin: 2rem;
+    }
+}
