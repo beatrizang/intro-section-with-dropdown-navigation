@@ -32,14 +32,14 @@ function showFeatures(){
     if(!showF){
         dropdown_features.style.display = "none";
         up_features.style.display = "block";
-        submenu_features.style.visibility = "visible";
+        submenu_features.style.display = "block";
         submenu_features.style.opacity = "1";
         showF = true;
     }
     else{
         dropdown_features.style.display = "block";
         up_features.style.display = "none";
-        submenu_features.style.visibility = "hidden";
+        submenu_features.style.display = "none";
         submenu_features.style.opacity = "0";
         showF = false;
     }
@@ -60,14 +60,14 @@ function showCompany(){
     if(!showC){
         dropdown_company.style.display = "none";
         up_company.style.display = "block";
-        submenu_company.style.visibility = "visible";
+        submenu_company.style.display = "block";
         submenu_company.style.opacity = "1";
         showC = true;
     }
     else{
         dropdown_company.style.display = "block";
         up_company.style.display = "none";
-        submenu_company.style.visibility = "hidden";
+        submenu_company.style.display = "none";
         submenu_company.style.opacity = "0";
         showC = false;
     }
