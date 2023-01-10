@@ -30,9 +30,19 @@
 .nav__item{
     cursor: pointer;
     margin-left: 2rem;
+    position: relative;
 }
 
-.nav__item:hover{
+
+
+.nav__link{
+    align-items:center;
+    cursor: pointer; 
+    display: flex;
+    transition: all 300ms ease;
+}
+
+.nav__link:hover{
     color: var(--almost-black);
 }
 
@@ -40,6 +50,50 @@
     display: none;
 }
 
+.arrow{
+    margin-left: 0.5rem;
+}
+
+/*submenu*/
+.submenu{
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    border-radius: 0.5rem;
+    background: white;
+    width: 110px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 30px;
+    left: -35px;
+    padding: 1rem;
+    z-index: 10;
+    transition: all 300ms ease;
+}
+
+#submenu-features{
+    left: -50px;
+    visibility: hidden;
+    opacity: 0;
+}
+#up_features{
+    display: none;
+}
+
+#submenu-company{
+    left: 0px;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#up_company{
+    display: none;
+}
+
+.submenu__item{
+    align-items: center;
+    display: flex;
+    padding: 0.3rem 0;
+}
 
 .header__right{
     display: flex;

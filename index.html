@@ -31,8 +31,53 @@
       <nav id="nav" class="nav">
         <ul class="nav__menu">
           <li class="nav__close"><img id="menu-close" src="./images/icon-close-menu.svg" alt="Close Menu"></li>
-          <li class="nav__item"><a class="nav__link" href="">Features</a></li>
-          <li class="nav__item"><a class="nav__link" href="">Company</a></li>
+          <li id="btn-features" class="nav__item">
+            <button class="nav__link" href="">
+            Features 
+            <img class="arrow" id="dropdown_features" src="./images/icon-arrow-down.svg" alt="Image arrow dropdown features">
+            <img class="arrow" id="up_features" src="./images/icon-arrow-up.svg" alt="Image up company">
+            </button>
+            <ul id="submenu-features" class="submenu">
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">
+                  <img src="./images/icon-todo.svg" alt=""> Todo List
+                </a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">
+                  <img src="./images/icon-calendar.svg" alt=""> Calendar
+                </a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">
+                  <img src="./images/icon-reminders.svg" alt=""> Reminders
+                </a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">
+                  <img src="./images/icon-planning.svg" alt=""> Planning
+                </a>
+              </li>
+            </ul>
+          </li>
+          <li id="btn-company" class="nav__item">
+            <button class="nav__link" href="">
+              Company 
+              <img class="arrow" id="dropdown_company" src="./images/icon-arrow-down.svg" alt="Image dropdown company">
+              <img class="arrow" id="up_company" src="./images/icon-arrow-up.svg" alt="Image up company">
+            </button>
+            <ul id="submenu-company" class="submenu">
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">History</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Team</a>
+              </li>
+              <li class="submenu__item">
+                <a class="submenu__link" href="#">Blog</a>
+              </li>
+            </ul>
+          </li>
           <li class="nav__item"><a class="nav__link" href="">Careers</a></li>
           <li class="nav__item"><a class="nav__link" href="">About</a></li>
         </ul>

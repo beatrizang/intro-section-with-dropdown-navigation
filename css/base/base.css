@@ -1,3 +1,4 @@
 body{
+    background: var(--almost-white);
     font-family: 'Epilogue', sans-serif;
 }
