@@ -25,13 +25,21 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- Desktop
+
+![](./images/screenshot/1.png)
+
+- Mobile
+
+![](./images/screenshot/2.png)
+
+
 
 
 ### Links
 
 - Solution URL: 
-- Live Site URL: 
+- Live Site URL: https://reliable-pastelito-f36c42.netlify.app/
 
 ## My process
 
@@ -45,6 +53,6 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - 
+- Frontend Mentor - https://www.frontendmentor.io/profile/beatrizang
 
 
