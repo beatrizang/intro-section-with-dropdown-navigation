@@ -1,0 +1,123 @@
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.central{
+    align-items: flex-end;
+    display: flex;
+    justify-content:space-around;
+    width: 90%;
+}
+
+.central__text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    width: 50%;
+}
+
+.central__image{
+    width: 60%;
+}
+
+.central__title{
+    color: var(--almost-black);
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+}
+
+.central__paragraph{
+    color: var(--medium-gray);
+    line-height: 1.5rem;
+    margin-bottom: 3rem;
+    width: 80%;
+}
+
+.central__button{
+    background: var(--almost-black);
+    border-radius: 0.8rem;
+    border: 1px solid var(--almost-black);
+    color: var(--almost-white);
+    cursor: pointer;
+    margin-bottom: 4rem;
+    padding: 1rem;
+    width: 10rem;
+}
+
+.central__button:hover{
+    background: var(--almost-white);
+    color: var(--almost-black);
+    transition: 0.3s;
+}
+
+.central__images{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.central__image{
+    height: auto;
+    width: 6rem;
+}
+
+.central__image__hero{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: auto;
+    width: 60%;
+}
+
+.central__image__hero_mb{
+    display: none;
+
+}
+
+@media screen and (max-width: 768px) {
+    .central{
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .central__image__hero{
+        display: none;
+    }
+
+    .central__image__hero_mb{
+        display: flex;
+        width: 100%;
+    }
+
+    .central__text{
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .central__title{
+        font-size: 4rem;
+        font-weight: 700;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .central__paragraph{
+        line-height: 1.5rem;
+        margin-bottom: 1.5rem;
+        width: 90%;
+    }
+
+    .central__button{
+        margin-bottom: 2.5rem;;
+    }
+
+    .central__images{
+        justify-content: space-around;
+        width: 100%;
+    }
+
+}

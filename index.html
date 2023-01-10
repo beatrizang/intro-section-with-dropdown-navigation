@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./css/base/variables.css">
+  <link rel="stylesheet" href="./css/base/reset.css">
+  <link rel="stylesheet" href="./css/base/base.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/header.css">
+
+  <link rel="stylesheet" href="./css/central.css">
+
+  <link rel="stylesheet" href="./css/footer.css">
+
+  
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+</head>
+<body>
+  <header class="header">
+      <img class="header__logo" src="./images/logo.svg" alt="Snap logo">
+      <button id="btn-menu"><img src="./images/icon-menu.svg" alt="Menu Icon"></button>
+      <div id="back_menu">
+      </div>
+      <nav id="nav" class="nav">
+        <ul class="nav__menu">
+          <li class="nav__close"><img id="menu-close" src="./images/icon-close-menu.svg" alt="Close Menu"></li>
+          <li class="nav__item"><a class="nav__link" href="">Features</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Company</a></li>
+          <li class="nav__item"><a class="nav__link" href="">Careers</a></li>
+          <li class="nav__item"><a class="nav__link" href="">About</a></li>
+        </ul>
+        <div class="header__right">
+          <button class="header__button">Login</button>
+          <button class="header__button border">Register</button>
+      </div>
+      </nav>
+
+  </header>
+  <main class="main">
+    <div class="central">
+      <div class="central__text">
+        <h2 class="central__title">Make remote work</h2>
+        <p class="central__paragraph">Get your team in sync, no matter your location. Streamline processes, 
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="central__button">Learn more</button>
+        <div class="central__images">
+          <img class="central__image" src="./images/client-databiz.svg" alt="Image client  databiz">
+          <img class="central__image" src="./images/client-audiophile.svg" alt="Image client audiophile">
+          <img class="central__image" src="./images/client-meet.svg" alt="Image client meet">
+          <img class="central__image" src="./images/client-maker.svg" alt="image client maker">
+        </div>
+      </div>
+      <div class="central__image__hero">
+        <img src="./images/image-hero-desktop.png" alt="Image Hero">
+      </div>
+      <div class="central__image__hero_mb">
+        <img src="./images/image-hero-mobile.png" alt="Image Hero">
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="attribution">
+      Challenge by <a class="footer__link" href="https://www.frontendmentor.io?ref=challenge" target="_blank" rel="noreferrer noopener">Frontend Mentor</a>. 
+      Coded by <a class="footer__link" href="https://github.com/beatrizang" target="_blank" rel="noreferrer noopener">Beatriz</a>.
+    </div>
+  </footer>
+  <script src="./js/index.js"></script>
+</body>
+</html>

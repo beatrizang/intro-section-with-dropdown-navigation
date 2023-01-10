@@ -1,0 +1,16 @@
+.footer{
+    color: var(--medium-gray);
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.footer__link{
+    color: var(--almost-black);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.footer__link:hover{
+    color: var(--medium-gray);
+    text-decoration: none;
+}
