@@ -38,7 +38,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: 
+- Solution URL: https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-yUgOt6hrp7
 - Live Site URL: https://reliable-pastelito-f36c42.netlify.app/
 
 ## My process
